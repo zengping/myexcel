@@ -18,3 +18,5 @@ var setting = {
 excel = $.excel("example", setting);                  //绑定id为example的元素
 
 excel.init();                                         //初始化插件
+
+excel.getData();                                      //获取数据
